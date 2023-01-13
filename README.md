@@ -1,37 +1,7 @@
-## Deploy JSON Server to Vercel
+This is a database for my Ristaurante Con Fusion app, here we have the dishes, the comments, the feedback the leaders and the promotions informations. 
+As the only hoster i found for free that could give me some JSON functionallities out there was vercel, i ended up using it but with it can't use POST method, so the user cant post comments or feedback. Any idea of a better hoster would be welcome here.
+There's also another bug with vercel, i dont know why but when the user refreshes the page the browser returns 404, this isnt happening in local environment, so i dont know why its happening there. 
 
-A template to deploy [JSON Server](https://github.com/typicode/json-server) to [Vercel](https://vercel.com), allow you to run fake REST API online!
-
-Demo from this repository: 
-
-1. https://json-server-in.vercel.app
-2. https://json-server-in.vercel.app/api/posts
-
-### How to use
-
-1. Click "**Use this template**" or clone this repository.
-2. Update or use the default [`db.json`](./db.json) in the repository.
-3. Sign Up or login into [Vercel](https://vercel.com).
-4. From the Vercel dashboard, click "**+ New Project**" then "**Import**" your repository.
-5. In the "**Configure Project**" screen, leave everything default and click "**Deploy**".
-6. Wait until deployment is done, and your own JSON server is ready to serve!
-
-## Default `db.json`
-
-```json
-{
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
-}
-```
-
-## Reference
-
-1. https://github.com/typicode/json-server
-2. https://vercel.com
-3. https://shadowsmith.com/how-to-deploy-an-express-api-to-vercel
+GitHub code: https://github.com/RicardoMorim/Restaurante-Confusion/
+You may see the database here: https://database-for-ristaurante-confusion.vercel.app/
+You may see the app here: https://restauranteconfusion.vercel.app/home 
