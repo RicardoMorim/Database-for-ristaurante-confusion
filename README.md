@@ -8,4 +8,4 @@ GitHub code: https://github.com/RicardoMorim/Restaurante-Confusion/
 
 You may see the database here: https://database-for-ristaurante-confusion.vercel.app/
 
-You may see the app here: https://restauranteconfusion.vercel.app/home 
+You may see the app here: https://first-react-app-ricardomorim.vercel.app/home
